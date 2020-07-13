@@ -1,0 +1,231 @@
+.container {
+  overflow: hidden;
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1000px;
+}
+
+a {
+  color: #00c1ff;
+  text-decoration: none;
+}
+
+.courses-list {
+  overflow: hidden;
+  /* -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: flex-start;
+      -ms-flex-align: start;
+          align-items: flex-start; */
+  list-style: none;
+  margin: 60px 0 20px;
+  padding: 0; 
+
+
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.courses-sci {
+  float: left;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: block;
+  margin: 0 15px 55px;
+  width: 170px;
+  min-height: 260px;
+  border: solid 1px #b5b5b5;
+  border-radius: 10px;
+  background: #fff; 
+
+  /* display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex; */
+}
+
+.sci-figure {
+  position: relative;
+  overflow: hidden;
+  height: 134px;
+  background: #ddd;
+  display: block; 
+}
+
+.sci-figure img {
+  max-width: 100%; 
+}
+
+.sci-figure-dl {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  box-sizing: border-box;
+  padding: 7px 16px;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  text-align: center; }
+
+.sci-figure-dl > a {
+  box-sizing: border-box;
+  display: block;
+  padding: .4em 1em .5em;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  text-decoration: none;
+  line-height: normal;
+  color: #00aee6;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 6px; }
+
+.sci-figure-dl > a:hover {
+    background: #fff; }
+
+.sci-info {
+  padding: 10px 16px; 
+  display: block;
+}
+
+.sci-info > p, .cart-header-msg.sci-info > li {
+  margin: .4em 0;
+  padding-left: .5em;
+  font-size: 14px;
+  font-weight: normal; 
+  line-height: 22px;
+}
+
+.sci-info > .sci-title {
+  margin: 0; }
+
+.sci-info > .sci-grade {
+  margin-top: -.2em; }
+
+.sci-info > .sci-genre {
+  margin-top: -.4em;
+  font-size: 11px; }
+
+.sci-info > .sci-meta {
+  margin-bottom: 0;
+  font-size: 12px;
+  font-weight: 600;
+  color: #00c1ff; }
+
+.sci-info > .sci-controls {
+  margin-bottom: 0;
+  padding-left: 0;
+  font-size: 12px; }
+
+.sci-info > .sci-controls a:hover {
+  text-decoration: none; }
+
+.sci-info > .sci-controls > .pure-button, .sci-info > .sci-controls > .btn, .sci-info > .header-nav.sci-controls > .header-btn, .sci-info > .header-user-dropdown.sci-controls > a {
+  padding: .4em .1em;
+  border-radius: 6px;
+  background: #00c1ff; 
+}
+
+.sci-info > .sci-controls > .pure-button:hover, .sci-info > .sci-controls > .btn:hover, .sci-info > .header-nav.sci-controls > .header-btn:hover, .sci-info > .header-user-dropdown.sci-controls > a:hover {
+  background: #00aee6; 
+}
+
+.pure-button-primary, .btn-primary, .header-nav > .header-btn-primary, .pure-button-selected, a.pure-button-primary, a.btn-primary, .header-nav > a.header-btn-primary, a.pure-button-selected {
+  background-color: #0078e7;
+  color: #fff;
+}
+
+.btn-fluid {
+  display: block;
+}
+
+.pure-button, .btn, .header-nav > .header-btn, .header-user-dropdown > a {
+  font-family: inherit;
+  font-size: 100%;
+  padding: 0.5em 1em;
+  color: #444;
+  color: rgba(0, 0, 0, 0.8);
+  border: 1px solid #999;
+  border: none transparent;
+  background-color: #E6E6E6;
+  text-decoration: none;
+  border-radius: 2px;
+  text-align: center;
+}
+
+.pure-button, .btn, .header-nav > .header-btn, .header-user-dropdown > a {
+  zoom: 1;
+  line-height: normal;
+  white-space: nowrap;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  -webkit-user-drag: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  box-sizing: border-box;
+}
+
+.courses-form {
+  overflow: hidden;
+  padding: 0 15px;
+}
+
+.form select {
+  padding: .3em .5em;
+  height: 2.3em;
+  background-color: #fff;
+  border: 1px solid #706f6f;
+}
+
+.form input[type="text"], .form input[type="password"], .form input[type="email"], .form input[type="url"], .form input[type="date"], .form input[type="month"], .form input[type="time"], .form input[type="datetime"], .form input[type="datetime-local"], .form input[type="week"], .form input[type="number"], .form input[type="search"], .form input[type="tel"], .form input[type="color"], .form select, .form textarea {
+  box-sizing: border-box;
+  display: inline-block;
+  padding: .4em .5em;
+  font-size: 14px;
+  vertical-align: middle;
+  border: 1px solid #706f6f;
+  border-radius: 6px;
+}
+
+@media screen and (min-width: 48em) {
+  .courses-form > div {
+      padding: 0 11px;
+      width: 25%;
+  }
+}
+
+
+@media screen and (min-width: 48em) {
+  .courses-form > div:first-child {
+      padding-left: 0;
+  }
+}
+
+.borderFind {
+  padding: .3em .5em;
+  height: 2.3em;
+  background-color: #fff;
+  border: 1px solid #706f6f;
+}
+
+.courses-form > div {
+  box-sizing: border-box;
+  display: block;
+  float: left;
+  padding: 0 0 15px;
+  width: 25%;
+}
+
+.courses-form input[type="text"], .courses-form select {
+  width: 100%;
+}
